@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #282c34;
+	border-radius: 10px;
+	justify-content: space-evenly;
+}
+.item{
+	background-color: cyan;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
